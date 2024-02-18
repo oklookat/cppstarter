@@ -6,15 +6,14 @@
 
 ## Install
 
-IMPORTANT: vcpkg and cmake should be installed on system drive (C:/ for example)
-
 1. Install [cmake](https://cmake.org).
-2. [Install vcpkg globally](<(https://learn.microsoft.com/en-us/vcpkg/)>).
+2. [Install vcpkg globally](https://learn.microsoft.com/en-us/vcpkg).
+**vcpkg and cmake should be installed on system drive (C:/ for example)**
 3. Add `VCPKG_ROOT` env var pointing to vcpkg dir.
 4. Add vcpkg dir to `PATH`.
 5. Install dependencies:
 
-In project dir
+In project dir:
 
 ```sh
 vcpkg install
